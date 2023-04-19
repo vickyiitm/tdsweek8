@@ -2,9 +2,9 @@
 #import streamlit
 import streamlit as st
 
-a= st.number_input()
-b= st.number_input()
-c= st.number_input()
+a= st.number_input('Enter number 1')
+b= st.number_input('Enter number 2')
+c= st.number_input('Enter number 3')
 
 largest = 0
 
