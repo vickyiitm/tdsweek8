@@ -15,4 +15,5 @@ if b > a and b > c:
 if c > a and c > b:
    largest = c
    
-st.button("largest")   
+st.button("Largest")   
+st.write('The current number is ', largest)
