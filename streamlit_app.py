@@ -1,6 +1,4 @@
 #!pip install streamlit -q
-#import streamlit
-Print ('Find the Largest number')
 
 import streamlit as st
 
@@ -18,8 +16,6 @@ if b > a and b > c:
 if c > a and c > b:
    largest = c
    
-#st.button("Largest")   
-#st.write('The current number is ', largest)
 if st.button('Largest'):
     st.write('The Largest number is', largest)
 
