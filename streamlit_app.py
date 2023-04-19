@@ -2,6 +2,17 @@
 #import streamlit
 import streamlit as st
 
-def compute_max(a,b,c):
-   l= list([a,b,c])
-   return max(l)
+a= st.number_input()
+b= st.number_input()
+c= st.number_input()
+
+largest = 0
+
+if a > b and a > c:
+    largest = a
+if b > a and b > c:
+    largest = b
+if c > a and c > b:
+   largest = c
+   
+st.button("largest")   
