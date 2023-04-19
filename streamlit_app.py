@@ -18,5 +18,5 @@ if c > a and c > b:
 #st.button("Largest")   
 #st.write('The current number is ', largest)
 if st.button('Largest'):
-    st.write('The current number is', largest)
+    st.write('The Largest number is', largest)
 
