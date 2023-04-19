@@ -1,8 +1,9 @@
 #!pip install streamlit -q
 #import streamlit
+Print ('Find the Largest number')
+
 import streamlit as st
 
-Print ('Find the Largest number')
 
 a= st.number_input('Enter number 1')
 b= st.number_input('Enter number 2')
