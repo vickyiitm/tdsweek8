@@ -2,6 +2,9 @@
 
 import streamlit as st
 
+st.title("Find the largest number")
+st.write(" Enter three numbers and click the below button to find the largest number")
+
 
 a= st.number_input('Enter number 1')
 b= st.number_input('Enter number 2')
@@ -16,6 +19,6 @@ if b > a and b > c:
 if c > a and c > b:
    largest = c
    
-if st.button('Largest'):
+if st.button('Find the Largest'):
     st.write('The Largest number is', largest)
 
