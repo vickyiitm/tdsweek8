@@ -1,4 +1,4 @@
-pip install streamlit -q
+!pip install streamlit -q
 import streamlit
 
 def compute_max(a,b,c):
